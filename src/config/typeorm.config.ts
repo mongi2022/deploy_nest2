@@ -18,13 +18,12 @@ import { VilleEntity } from "src/modules/Ville/entity/ville.entity";
 import { FeaturelistTerrainEntity } from "src/modules/featuresListTerrain/entity/featuresListTerrain.entity";
 
 export const typeormConfig:TypeOrmModuleOptions ={
-
     type: 'mysql',
     host: 'sql.freedb.tech',
     port: 3306,
-    username: 'freedb_mongithabet1234',
-    password: 'zBCT*c22%jG@T*C',
-    database: 'freedb_realEstate',
+    username: 'freedb_freedb_mongithabet1234',
+    password: '&2saMsfPF&?dhAP',
+    database: 'freedb_realestate2',
     entities: [User,NeighborhoodEntity,FeaturelistTerrainEntity,VilleEntity,PriceEntity,FeaturelistEntity,AreaEntity,VideosEntity,CommentEntity, LocalisationEntity,SocialEntity,PropertyEntity,GalleryEntity,ClientEntity,HouseEntity,TestimonialEntity,CommentEntity ,FeaturesEntity],
 
     synchronize: true,
